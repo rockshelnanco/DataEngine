@@ -1,3 +1,5 @@
+#基于车质网爬虫数据进行投诉内容的统计排序，生成excel数据表
+
 import pandas as pd
 import openpyxl
 df = pd.read_csv('./car_complain.csv')
